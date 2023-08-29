@@ -29,7 +29,7 @@
   <main>
     <h1>Contact Page</h1>
   
-    <input type="text" bind:value={searchTerm} placeholder="Search by name" on:input={search} />
+    <input type="text" bind:value={searchTerm} placeholder="Search Data of User" on:input={search} />
   
     {#if searchTerm && filteredPosts.length === 0}
       <p>No matching data found.</p>
@@ -59,6 +59,7 @@
       background-color: #f5f5f5;
       border-radius: 8px;
       box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+      margin-top: 10vh;
      
     }
   
